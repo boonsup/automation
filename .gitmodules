@@ -1,0 +1,3 @@
+[submodule "week01-mime-typing"]
+	path = week01-mime-typing
+	url = https://github.com/boonsup/week01-mime-typing.git

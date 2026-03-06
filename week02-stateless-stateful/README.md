@@ -47,13 +47,34 @@ week02-stateless-stateful/
 │   ├── QUICK_START.md              # 5-minute setup guide
 │   └── README.md
 │
+├── tests/                           # Week-level integration tests
+│   ├── test-gateway-full.js        # Gateway test suite
+│   ├── week02-dual-api-test.js     # Dual API tests
+│   └── week02-security-error-test.js # Security & error tests
+│
 ├── scripts/                         # Utility scripts
 │   ├── validate-staging.ps1        # PowerShell validation
 │   └── cleanup.sh                  # Docker cleanup
 │
-├── implementation_plan.md           # Detailed 8-week implementation plan
-├── master_development_plan.md       # High-level roadmap
-├── source.md                        # Original specification
+├── docs/                            # Documentation
+│   ├── design/                     # Design specifications
+│   │   ├── phase1_mockup_design.md
+│   │   ├── mockup_api_specification.md
+│   │   ├── source.md
+│   │   └── PROJECT_PROFILE.md
+│   ├── development/                # Development guides
+│   │   ├── implementation_plan.md
+│   │   ├── master_development_plan.md
+│   │   ├── phase2_implementation_plan.md
+│   │   ├── QUICKSTART_MOCKUP_INFRA.md
+│   │   └── mockup_testing_strategy.md
+│   ├── deployment/                 # Deployment documentation
+│   │   ├── phase2_transition_plan.md
+│   │   ├── WEEK02_TRANSITION.md
+│   │   └── BRANCH_TRANSITION_GUIDE.md
+│   └── reports/                    # Project reports
+│       └── REFRAMING_SUMMARY.md
+│
 └── README.md                        # This file
 ```
 

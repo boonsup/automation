@@ -28,8 +28,14 @@ week03-microservices/
 │   ├── mockup-infra-integration/      # [NEW] Configuration for mockup-infra
 │   └── README.md
 │
-├── application_protocol_design.md     # Detailed protocol specification
-├── Implementation_Guide.md            # Phase 2 Implementation (Postgres/Redis/RabbitMQ)
+├── docs/                              # Documentation
+│   ├── design/                       # Design specifications
+│   │   ├── application_protocol_design.md
+│   │   └── PROJECT_PROFILE.md
+│   └── development/                  # Development guides
+│       ├── Implementation_Guide.md
+│       └── Two_Phase_Implementation_Guide.md
+│
 └── README.md                          # This file
 ```
 

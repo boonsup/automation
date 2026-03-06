@@ -19,10 +19,15 @@ By the end of this week, you will understand:
 
 ```
 week04-secure-governance/
-├── architecture_specification.md     # Complete security architecture
-├── implementation_plan.md            # 4-phase, 4-week implementation roadmap
-├── thai_law_reframe.md              # PDPA (Thailand) compliance mapping
-├── IMPROVEMENT_COMMENTS.md          # Scope analysis and recommendations
+├── docs/                            # Documentation
+│   ├── design/                     # Design specifications
+│   │   ├── architecture_specification.md
+│   │   └── thai_law_reframe.md
+│   ├── development/                # Development guides
+│   │   └── implementation_plan.md
+│   └── reports/                    # Project reports
+│       └── IMPROVEMENT_COMMENTS.md
+│
 ├── kubernetes/                      # Kubernetes manifests (later phases)
 │   ├── istio/                      # Service mesh configuration
 │   ├── keycloak/                   # Identity provider
